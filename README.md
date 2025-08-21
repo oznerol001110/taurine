@@ -1,8 +1,14 @@
 # ⚡ Taurine – Energia pura per il tuo PC
 
-**Taurine** è uno script Python leggero e potente che tiene il tuo PC **sempre sveglio**, come se avesse appena bevuto una lattina di taurina pura.
+**Taurine** è uno script Python leggero e potente che tiene il tuo PC **sempre sveglio**, come se avesse appena bevuto una bevanda energetica.
 
 Blocca standby, screensaver e simula attività dell’utente per mantenere attivo lo stato "Online" su applicazioni come Teams, Zoom, Slack, ecc.
+
+---
+
+## 🐂 Nome ispirato alla **Taurina**
+
+Proprio come una Red Bull per il tuo PC. Resti sveglio, attivo e reattivo... anche se tu non ci sei. 💻⚡
 
 ---
 
@@ -16,30 +22,61 @@ Blocca standby, screensaver e simula attività dell’utente per mantenere attiv
 
 ---
 
-## 🚀 Avvio rapido
+## ❤️ Supporta il progetto
 
-### 🔁 Esecuzione automatica via `taurine.bat`
+Ti piace Taurine? Dona e aiutami a tenere svegli più PC! ☕💻
 
-Il modo più semplice per avviare tutto è eseguire:
-
-taurine.bat
-
-Questo:
-
-- Crea un ambiente virtuale `.venv` (se non esiste)
-- Installa le dipendenze da `requirements.txt`
-- Lancia automaticamente `taurine.py`
-
-### 🧪 Manuale (alternativa)
-
-```bash
-python -m venv .venv
-.venv\Scripts\activate
-pip install -r requirements.txt
-python taurine.py
-```
+<p align="center">
+  <!-- Buy Me a Coffee -->
+  <a href="https://www.buymeacoffee.com/oznerol" style="height: 5rem; width: auto;" target="_blank">
+    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" 
+         alt="Buy Me a Coffee" 
+         style="height: 5rem; width: auto;">
+  </a>
+  &nbsp;&nbsp;
+  <!-- PayPal -->
+  <a href="https://www.paypal.com/donate/?hosted_button_id=L95AXFR3LEZ7Q" style="height: 5rem; width: auto;" target="_blank"">
+    <img src="https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white" 
+         alt="Donate with PayPal" 
+         style="height: 5rem; width: auto;">
+  </a>
+</p>
 
 ---
+
+## 🚀 Avvio rapido
+
+### 🔁 Esecuzione manuale
+
+Il modo più semplice per avviare Taurine è eseguire direttamente lo script Python:
+
+```
+
+python taurine.py
+
+```
+
+Opzioni disponibili:
+
+```
+
+python taurine.py -h
+
+```
+
+Mostrerà:
+
+- `-t`, `--time` → Intervallo in secondi tra simulazioni (default: 60)
+
+- `-s`, `--silent` → Modalità silenziosa, senza stampare ogni ciclo
+
+Puoi anche specificare intervallo e modalità silenziosa direttamente:
+
+```
+
+python taurine.py -t 120 -s
+
+```
 
 ## 🛠 Avvio automatico con Windows
 
@@ -47,7 +84,15 @@ Per far partire TaurineBoost ad ogni accensione:
 
 1. Premi `Win + R`
 2. Scrivi `shell:startup` e premi Invio
-3. Copia un collegamento a `taurine.bat` in quella cartella
+3. Copia un collegamento a `taurine.py` in quella cartella
+
+   - Esempio target del collegamento:
+
+     ```
+
+     C:\Python311\python.exe "C:\Percorso\taurine.py" -t 120
+
+     ```
 
 ---
 
@@ -59,12 +104,6 @@ Per far partire TaurineBoost ad ogni accensione:
 
 ---
 
-## 🐂 Nome ispirato alla **Taurina**
-
-Proprio come una Red Bull per il tuo PC. Resti sveglio, attivo e reattivo... anche se tu non ci sei. 💻⚡
-
----
-
 ## 📄 Licenza
 
 MIT – Fanne ciò che vuoi!
@@ -73,7 +112,7 @@ MIT – Fanne ciò che vuoi!
 
 ## 💬 Contatti
 
-Creato con 💪 e caffeina da oznerol001110
+Creato con 💪 e caffeina 🤭 da oznerol001110
 
 ```
 
