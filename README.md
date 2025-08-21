@@ -35,7 +35,7 @@ Ti piace Taurine? Dona e aiutami a tenere svegli più PC! ☕💻
   </a>
   &nbsp;&nbsp;
   <!-- PayPal -->
-  <a href="https://www.paypal.com/donate/?hosted_button_id=L95AXFR3LEZ7Q" style="height: 5rem; width: auto;" target="_blank"">
+  <a href="https://www.paypal.com/donate/?hosted_button_id=L95AXFR3LEZ7Q" style="height: 5rem; width: auto;" target="_blank">
     <img src="https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white" 
          alt="Donate with PayPal" 
          style="height: 5rem; width: auto;">
