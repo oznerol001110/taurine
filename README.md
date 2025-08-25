@@ -1,5 +1,11 @@
 # ⚡ Taurine – Energia pura per il tuo PC
 
+## 🌍 Lingue
+- 🇮🇹 Italiano (README.md)
+- 🇬🇧 [English](docs/README.en.md)
+- 🇪🇸 [Español](docs/README.es.md)
+- 🇩🇪 [Deutsch](docs/README.de.md)
+
 **Taurine** è uno script Python leggero e potente che tiene il tuo PC **sempre sveglio**, come se avesse appena bevuto una bevanda energetica.
 
 Blocca standby, screensaver e simula attività dell’utente per mantenere attivo lo stato "Online" su applicazioni come Teams, Zoom, Slack, ecc.
