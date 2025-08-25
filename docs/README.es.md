@@ -69,7 +69,7 @@ También puedes especificar el intervalo y el modo silencioso directamente:
 
 ## 🛠 Inicio automático en Windows
 
-Para iniciar TaurineBoost en cada arranque:  
+Para iniciar Taurine en cada arranque:  
 
 1. Pulsa `Win + R`  
 2. Escribe `shell:startup` y pulsa Enter  
