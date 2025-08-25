@@ -70,7 +70,7 @@ Du kannst Intervall und Still-Modus auch direkt angeben:
 
 ## 🛠 Automatischer Start unter Windows
 
-Um TaurineBoost bei jedem Start zu starten:  
+Um Taurine bei jedem Start zu starten:  
 
 1. Drücke `Win + R`  
 2. Tippe `shell:startup` und drücke Enter  
