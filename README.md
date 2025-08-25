@@ -86,7 +86,7 @@ python taurine.py -t 120 -s
 
 ## 🛠 Avvio automatico con Windows
 
-Per far partire TaurineBoost ad ogni accensione:
+Per far partire Taurine ad ogni accensione:
 
 1. Premi `Win + R`
 2. Scrivi `shell:startup` e premi Invio
