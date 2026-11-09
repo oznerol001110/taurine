@@ -84,6 +84,18 @@ python taurine.py -t 120 -s
 
 ```
 
+### 🍎 macOS
+
+Per macOS usa lo script dedicato:
+
+```
+
+python3 taurine_mac.py
+
+```
+
+Le opzioni `-t` / `--time` e `-s` / `--silent` sono le stesse della versione Windows. Lo script usa `caffeinate` per impedire la sospensione e simula F15 tramite AppleScript. Al primo avvio, macOS potrebbe chiedere di autorizzare l'app Terminale in **Impostazioni di Sistema → Privacy e sicurezza → Accessibilità**.
+
 ## 🛠 Avvio automatico con Windows
 
 Per far partire Taurine ad ogni accensione:
@@ -105,8 +117,8 @@ Per far partire Taurine ad ogni accensione:
 ## 🔧 Requisiti
 
 - **Python 3.7+**
-- Sistema operativo: **Windows**
-- Dipendenze: `pyautogui` (installata da `requirements.txt`)
+- **Windows** per `taurine.py`; **macOS** per `taurine_mac.py`
+- macOS: comandi di sistema `caffeinate` e `osascript`; nessuna dipendenza Python esterna
 
 ---
 

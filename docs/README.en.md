@@ -75,6 +75,14 @@ You can also specify interval and silent mode directly:
 
     python taurine.py -t 120 -s
 
+### 🍎 macOS
+
+On macOS, use the dedicated script:
+
+    python3 taurine_mac.py
+
+The `-t` / `--time` and `-s` / `--silent` options are the same as in the Windows version. The script uses `caffeinate` to prevent sleep and simulates F15 through AppleScript. On first run, macOS may ask you to authorize Terminal under **System Settings → Privacy & Security → Accessibility**.
+
 ---
 
 ## 🛠 Automatic startup on Windows
@@ -94,8 +102,8 @@ Example target of the shortcut:
 ## 🔧 Requirements
 
 - **Python 3.7+**  
-- Operating system: **Windows**  
-- Dependencies: `pyautogui` (installed via `requirements.txt`)  
+- **Windows** for `taurine.py`; **macOS** for `taurine_mac.py`
+- macOS: system commands `caffeinate` and `osascript`; no external Python dependencies
 
 ---
 
